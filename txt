@@ -1,0 +1,46 @@
+for (i = 0; i < 2; i++) { //строка
+            //i++;
+            for (j = 0; j < 2; j++) //столбец
+                //j++;
+               System.out.print(md[i][j]); 
+            
+            System.out.println(md[i][j]);
+
+i = 0;
+        j = 0;
+        k = 0;
+
+        md[i][j] = k;
+
+md[0][0] = 0;
+        md[0][1] = 1;
+        md[0][2] = 2;
+        
+        System.out.println(md[0][0]);
+        System.out.println(md[0][1]);
+        System.out.println(md[0][2]);
+
+int[][] md = new int[4][5];
+        int i, j, k = 0;
+        for (i = 0; i < 4; i++) {
+            //System.out.println("I "+i);
+            for (j = 0; j < 5; j++) 
+                //System.out.println("j "+j);
+                //md[i][j] = k;
+                //k++;       
+            System.out.print(md[i][j] + "");
+            System.out.println();
+        }
+        /*for (i = 0; i < 4; i++) {
+            for (j = 0; j < 5; j++) 
+                System.out.print(md[i][j] + "");
+                System.out.println();      
+                */
+        }
+    }
+args[0] = "один";
+        args[1] = "два";
+        args[2] = "три";
+        System.out.println("без for "+args[0]);
+        System.out.println("без for "+args[1]);
+        System.out.println("без for "+args[2]);
